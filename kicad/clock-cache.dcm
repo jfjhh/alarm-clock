@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC688
+D 8 bits Comparator
+K TTL DECOD Arith
+$ENDCMP
+#
+$CMP 74LS688
+D 8 bits Comparator
+K TTL DECOD Arith
+$ENDCMP
+#
+#End Doc Library

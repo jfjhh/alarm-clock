@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4060
+D Binary counter 14 stages (asynchronous)
+K CMOS CNT CNT14
+F cmos4000/MC14020.pdf
+$ENDCMP
+#
+$CMP 74HC688
+D 8 bits Comparator
+K TTL DECOD Arith
+$ENDCMP
+#
+#End Doc Library
