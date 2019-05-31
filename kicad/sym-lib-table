@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name clock-rescue)(type Legacy)(uri ${KIPRJMOD}/clock-rescue.lib)(options "")(descr ""))
+  (lib (name clock)(type Legacy)(uri ${KIPRJMOD}/lib-sch/clock.lib)(options "")(descr ""))
+)
