@@ -855,19 +855,22 @@ Entry Wire Line
 Entry Wire Line
 	8950 4750 9050 4850
 Text GLabel 2450 4100 2    60   Input ~ 0
-BCDML
+ML[0..3]
 Text GLabel 4250 4100 2    60   Input ~ 0
-BCDMH
+MH[0..3]
 Text GLabel 7700 4100 2    60   Input ~ 0
-BCDHL
+HL[0..3]
 Text GLabel 9500 4100 2    60   Input ~ 0
-BCDHH
+HH[0..3]
 $Sheet
-S 6250 6550 500  600 
+S 6200 6750 550  500 
 U 5CED0B3E
 F0 "Alarm" 60
 F1 "alarm.sch" 60
-F2 "BCDML" I L 6250 6650 50 
+F2 "ML[0..3]" I L 6200 6850 50 
+F3 "MH[0..3]" I L 6200 6950 50 
+F4 "HH[0..3]" I L 6200 7150 50 
+F5 "HL[0..3]" I L 6200 7050 50 
 $EndSheet
 $Comp
 L power:GND #PWR051
@@ -1095,13 +1098,13 @@ Wire Wire Line
 Wire Wire Line
 	2300 3050 2300 2800
 Text Label 2300 3050 0    50   ~ 0
-Q0
+ML0
 Text Label 2300 3150 0    50   ~ 0
-Q1
+ML1
 Text Label 2300 3250 0    50   ~ 0
-Q2
+ML2
 Text Label 2300 3350 0    50   ~ 0
-Q3
+ML3
 Wire Wire Line
 	2050 4850 2100 4850
 Wire Wire Line
@@ -1111,13 +1114,13 @@ Wire Wire Line
 Wire Wire Line
 	2100 5150 2050 5150
 Text Label 2050 4850 0    50   ~ 0
-Q0
+ML0
 Text Label 2050 4950 0    50   ~ 0
-Q1
+ML1
 Text Label 2050 5050 0    50   ~ 0
-Q2
+ML2
 Text Label 2050 5150 0    50   ~ 0
-Q3
+ML3
 Wire Wire Line
 	4100 3050 4150 3050
 Wire Wire Line
@@ -1125,13 +1128,13 @@ Wire Wire Line
 Wire Wire Line
 	4100 2800 2550 2800
 Text Label 4100 3050 0    50   ~ 0
-R0
+MH0
 Text Label 4100 3150 0    50   ~ 0
-R1
+MH1
 Text Label 4100 3250 0    50   ~ 0
-R2
+MH2
 Text Label 4100 3350 0    50   ~ 0
-R3
+MH3
 Wire Wire Line
 	4450 4850 4350 4850
 Wire Wire Line
@@ -1141,17 +1144,17 @@ Wire Wire Line
 Wire Wire Line
 	4350 5150 4450 5150
 Text Label 4350 4850 0    50   ~ 0
-R0
+MH0
 Text Label 4350 4950 0    50   ~ 0
-R1
+MH1
 Text Label 4350 5050 0    50   ~ 0
-R2
+MH2
 Text Label 4350 5150 0    50   ~ 0
-R3
+MH3
 Text Label 4400 3250 0    50   ~ 0
-R1
+MH1
 Text Label 4400 3350 0    50   ~ 0
-R2
+MH2
 Wire Wire Line
 	4150 1250 4150 1400
 $Comp
@@ -1535,17 +1538,17 @@ Wire Wire Line
 Wire Wire Line
 	7400 2800 5950 2800
 Text Label 7450 3050 0    50   ~ 0
-S0
+HL0
 Text Label 7450 3150 0    50   ~ 0
-S1
+HL1
 Text Label 7450 3250 0    50   ~ 0
-S2
+HL2
 Text Label 7450 3350 0    50   ~ 0
-S3
+HL3
 Text Label 7750 2700 0    50   ~ 0
-S1
+HL1
 Text Label 7750 3450 0    50   ~ 0
-S3
+HL3
 Wire Wire Line
 	6700 4850 6800 4850
 Wire Wire Line
@@ -1555,13 +1558,13 @@ Wire Wire Line
 Wire Wire Line
 	6800 5150 6700 5150
 Text Label 6700 4850 0    50   ~ 0
-S0
+HL0
 Text Label 6700 4950 0    50   ~ 0
-S1
+HL1
 Text Label 6700 5050 0    50   ~ 0
-S2
+HL2
 Text Label 6700 5150 0    50   ~ 0
-S3
+HL3
 $Comp
 L 74xx:74LS390 U7
 U 2 1 5D572722
@@ -1595,13 +1598,13 @@ Wire Wire Line
 Wire Wire Line
 	9250 2800 7850 2800
 Text Label 9300 3050 0    50   ~ 0
-T0
+HH0
 Text Label 9300 3150 0    50   ~ 0
-T1
+HH1
 Text Label 9300 3250 0    50   ~ 0
-T2
+HH2
 Text Label 9300 3350 0    50   ~ 0
-T3
+HH3
 Wire Wire Line
 	9050 4850 9150 4850
 Wire Wire Line
@@ -1611,13 +1614,13 @@ Wire Wire Line
 Wire Wire Line
 	9150 5150 9050 5150
 Text Label 9050 4850 0    50   ~ 0
-T0
+HH0
 Text Label 9050 4950 0    50   ~ 0
-T1
+HH1
 Text Label 9050 5050 0    50   ~ 0
-T2
+HH2
 Text Label 9050 5150 0    50   ~ 0
-T3
+HH3
 $Comp
 L 74xx:74LS390 U8
 U 3 1 5D5CEBC3
@@ -1777,6 +1780,24 @@ Wire Wire Line
 Connection ~ 1150 1200
 Wire Wire Line
 	600  1050 600  1550
+Text GLabel 6150 6850 0    50   Input ~ 0
+ML[0..3]
+Wire Bus Line
+	6150 6850 6200 6850
+Text Label 9600 3250 0    50   ~ 0
+HH1
+Text GLabel 6150 6950 0    50   Input ~ 0
+MH[0..3]
+Text GLabel 6150 7050 0    50   Input ~ 0
+HL[0..3]
+Text GLabel 6150 7150 0    50   Input ~ 0
+HH[0..3]
+Wire Bus Line
+	6150 6950 6200 6950
+Wire Bus Line
+	6150 7050 6200 7050
+Wire Bus Line
+	6150 7150 6200 7150
 Wire Bus Line
 	8950 4100 8950 5050
 Wire Bus Line
@@ -1791,6 +1812,4 @@ Wire Bus Line
 	2450 3150 2450 4100
 Wire Bus Line
 	4250 3150 4250 5050
-Text GLabel 6250 6650 0    50   Input ~ 0
-BCDML
 $EndSCHEMATC
