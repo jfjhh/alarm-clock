@@ -806,36 +806,6 @@ F3 "MH[0..3]" I L 6200 6950 50
 F4 "HH[0..3]" I L 6200 7150 50 
 F5 "HL[0..3]" I L 6200 7050 50 
 $EndSheet
-$Comp
-L power:GND #PWR048
-U 1 1 5CED9368
-P 10150 5650
-F 0 "#PWR048" H 10150 5400 50  0001 C CNN
-F 1 "GND" H 10150 5500 50  0000 C CNN
-F 2 "" H 10150 5650 50  0001 C CNN
-F 3 "" H 10150 5650 50  0001 C CNN
-	1    10150 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR015
-U 1 1 5CED9423
-P 3100 5650
-F 0 "#PWR015" H 3100 5400 50  0001 C CNN
-F 1 "GND" H 3100 5500 50  0000 C CNN
-F 2 "" H 3100 5650 50  0001 C CNN
-F 3 "" H 3100 5650 50  0001 C CNN
-	1    3100 5650
-	1    0    0    -1  
-$EndComp
-Text GLabel 7800 5850 0    60   Input ~ 0
-1Hz
-Wire Wire Line
-	7800 5850 7800 5650
-Wire Wire Line
-	5450 5650 5450 5850
-Text GLabel 5450 5850 0    60   Input ~ 0
-SLP
 Wire Wire Line
 	600  1550 600  1700
 Wire Wire Line
@@ -1609,70 +1579,15 @@ F 3 "" H 4650 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
-U 1 1 5D5D3111
-P 1150 900
-F 0 "R6" H 1150 1050 50  0000 L CNN
-F 1 "1M" V 1150 850 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1080 900 50  0001 C CNN
-F 3 "~" H 1150 900 50  0001 C CNN
-	1    1150 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5D5D36CF
-P 1050 900
-F 0 "R5" H 1050 1050 50  0000 L CNN
-F 1 "1M" V 1050 850 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 980 900 50  0001 C CNN
-F 3 "~" H 1050 900 50  0001 C CNN
-	1    1050 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5D5D5655
-P 950 900
-F 0 "R4" H 950 1050 50  0000 L CNN
-F 1 "1M" V 950 850 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 880 900 50  0001 C CNN
-F 3 "~" H 950 900 50  0001 C CNN
-	1    950  900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5D5D565B
-P 850 900
-F 0 "R3" H 850 1050 50  0000 L CNN
-F 1 "1M" V 850 850 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 780 900 50  0001 C CNN
-F 3 "~" H 850 900 50  0001 C CNN
-	1    850  900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5D5DC362
-P 750 900
-F 0 "R2" H 750 1050 50  0000 L CNN
-F 1 "1M" V 750 850 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 680 900 50  0001 C CNN
-F 3 "~" H 750 900 50  0001 C CNN
-	1    750  900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R1
 U 1 1 5D5DC368
-P 650 900
-F 0 "R1" H 650 1050 50  0000 L CNN
-F 1 "1M" V 650 850 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 580 900 50  0001 C CNN
-F 3 "~" H 650 900 50  0001 C CNN
-	1    650  900 
-	1    0    0    -1  
+P 850 1050
+F 0 "R1" V 750 1000 50  0000 L CNN
+F 1 "10M" V 850 950 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 780 1050 50  0001 C CNN
+F 3 "~" H 850 1050 50  0001 C CNN
+	1    850  1050
+	0    1    1    0   
 $EndComp
 Connection ~ 1150 1550
 $Comp
@@ -1692,18 +1607,6 @@ Wire Wire Line
 	1400 600  600  600 
 Wire Wire Line
 	600  600  600  1050
-Wire Wire Line
-	1150 750  1050 750 
-Wire Wire Line
-	1050 1050 950  1050
-Wire Wire Line
-	950  750  850  750 
-Wire Wire Line
-	850  1050 750  1050
-Wire Wire Line
-	750  750  650  750 
-Wire Wire Line
-	650  1050 600  1050
 Connection ~ 600  1050
 Wire Wire Line
 	1150 1200 1400 1200
@@ -1796,20 +1699,6 @@ F 3 "" H 10800 6350 50  0001 C CNN
 	1    10800 6350
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	8950 4100 8950 5050
-Wire Bus Line
-	6600 4100 6600 5050
-Wire Bus Line
-	1950 4100 1950 5050
-Wire Bus Line
-	7700 3150 7700 4100
-Wire Bus Line
-	9500 3150 9500 4100
-Wire Bus Line
-	2450 3150 2450 4100
-Wire Bus Line
-	4250 3150 4250 5050
 Wire Wire Line
 	5150 1400 5250 1400
 Text GLabel 5100 800  0    60   Input ~ 0
@@ -1825,4 +1714,26 @@ F 3 "~" H 5300 800 50  0001 C CNN
 	1    5100 800 
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	600  1050 700  1050
+Wire Wire Line
+	1000 1050 1150 1050
+NoConn ~ 3100 5650
+NoConn ~ 10150 5650
+NoConn ~ 7800 5650
+NoConn ~ 5450 5650
+Wire Bus Line
+	8950 4100 8950 5050
+Wire Bus Line
+	6600 4100 6600 5050
+Wire Bus Line
+	1950 4100 1950 5050
+Wire Bus Line
+	7700 3150 7700 4100
+Wire Bus Line
+	9500 3150 9500 4100
+Wire Bus Line
+	2450 3150 2450 4100
+Wire Bus Line
+	4250 3150 4250 5050
 $EndSCHEMATC
