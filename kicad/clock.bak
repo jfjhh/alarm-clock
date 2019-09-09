@@ -1586,8 +1586,8 @@ L clock-rescue:SW_Push SW?
 U 1 1 5D5C033D
 P 2950 900
 AR Path="/5CED0B3E/5D5C033D" Ref="SW?"  Part="1" 
-AR Path="/5D5C033D" Ref="SW?"  Part="1" 
-F 0 "SW?" H 3000 1000 50  0000 L CNN
+AR Path="/5D5C033D" Ref="SW1"  Part="1" 
+F 0 "SW1" H 3000 1000 50  0000 L CNN
 F 1 "SW_Push" H 2950 840 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 2950 1100 50  0001 C CNN
 F 3 "" H 2950 1100 50  0001 C CNN

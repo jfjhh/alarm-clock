@@ -393,7 +393,7 @@
       (net 82 "Net-(U20-Pad19)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C7C5E) (tstamp 5D6C7B4F)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C7C5E) (tstamp 5D6C7B4F)
     (at 157.607 122.936)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -406,7 +406,7 @@
       (net 82 "Net-(U20-Pad19)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C7A9F) (tstamp 5D6C7B4F)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C7A9F) (tstamp 5D6C7B4F)
     (at 133.35 114.554)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -419,7 +419,7 @@
       (net 22 "Net-(U1-Pad2)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C7A2F) (tstamp 5D6C7B4F)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C7A2F) (tstamp 5D6C7B4F)
     (at 133.35 112.014)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -432,7 +432,7 @@
       (net 24 "Net-(U1-Pad4)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C79E2) (tstamp 5D6C7B4F)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C79E2) (tstamp 5D6C7B4F)
     (at 137.922 122.936)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -445,7 +445,7 @@
       (net 23 "Net-(U1-Pad9)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C7962) (tstamp 5D6C7931)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C7962) (tstamp 5D6C7931)
     (at 110.49 60.071)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -458,7 +458,7 @@
       (net 23 "Net-(U1-Pad9)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C7600) (tstamp 5D6C751F)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C7600) (tstamp 5D6C751F)
     (at 157.861 101.854)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -471,7 +471,7 @@
       (net 12 1min))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C7625) (tstamp 5D6C751F)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C7625) (tstamp 5D6C751F)
     (at 157.861 112.014)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -484,7 +484,7 @@
       (net 26 "Net-(U1-Pad6)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C7612) (tstamp 5D6C751F)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C7612) (tstamp 5D6C751F)
     (at 157.861 104.394)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -497,7 +497,7 @@
       (net 87 "Net-(U15-Pad5)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C75AC) (tstamp 5D6C751F)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C75AC) (tstamp 5D6C751F)
     (at 143.129 74.295)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -510,7 +510,7 @@
       (net 10 1hr))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C75C2) (tstamp 5D6C751F)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C75C2) (tstamp 5D6C751F)
     (at 145.542 74.295)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -523,7 +523,7 @@
       (net 47 MH1))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C755B) (tstamp 5D6C751F)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C755B) (tstamp 5D6C751F)
     (at 137.795 78.994)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -536,7 +536,7 @@
       (net 48 HL1))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C7825) (tstamp 5D6C48D2)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C7825) (tstamp 5D6C48D2)
     (at 100.33 63.119)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -549,7 +549,7 @@
       (net 22 "Net-(U1-Pad2)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C7818) (tstamp 5D6C48D2)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C7818) (tstamp 5D6C48D2)
     (at 105.41 63.119)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -562,7 +562,7 @@
       (net 24 "Net-(U1-Pad4)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C7809) (tstamp 5D6C48D2)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C7809) (tstamp 5D6C48D2)
     (at 110.49 63.119)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -575,7 +575,7 @@
       (net 26 "Net-(U1-Pad6)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C441F) (tstamp 5D6C48D2)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C441F) (tstamp 5D6C48D2)
     (at 118.11 52.197)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -588,7 +588,7 @@
       (net 49 HH1))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C43DC) (tstamp 5D6C48D2)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C43DC) (tstamp 5D6C48D2)
     (at 109.22 52.197)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -601,7 +601,7 @@
       (net 12 1min))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C43CC) (tstamp 5D6C48D2)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C43CC) (tstamp 5D6C48D2)
     (at 100.33 52.197)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -614,7 +614,7 @@
       (net 10 1hr))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C43A9) (tstamp 5D6C48D2)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C43A9) (tstamp 5D6C48D2)
     (at 118.11 49.403)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -627,7 +627,7 @@
       (net 48 HL1))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C439F) (tstamp 5D6C48D2)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C439F) (tstamp 5D6C48D2)
     (at 109.22 49.403)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -640,7 +640,7 @@
       (net 87 "Net-(U15-Pad5)"))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C438B) (tstamp 5D6C48D2)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C438B) (tstamp 5D6C48D2)
     (at 100.33 49.403)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -653,7 +653,7 @@
       (net 47 MH1))
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D6C42CD) (tstamp 5D6C4703)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D6C42CD) (tstamp 5D6C4703)
     (at 163.195 119.761)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -974,7 +974,7 @@
     )
   )
 
-  (module clock:TestPoint (layer F.Cu) (tedit 5D3E2976) (tstamp 5D3E448D)
+  (module clock:TestPoint locked (layer F.Cu) (tedit 5D3E2976) (tstamp 5D3E448D)
     (at 165.608 119.761)
     (path /5D471225)
     (fp_text reference TP1 (at 0 2.54) (layer F.SilkS) hide
@@ -2296,7 +2296,7 @@
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5CED0B3E/5CEDED6F)
-    (fp_text reference R13 (at 5.08 -3.556) (layer F.SilkS)
+    (fp_text reference R13 (at 5.08 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 22k (at 5.08 2.31) (layer F.Fab)
@@ -2752,7 +2752,7 @@
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /5CED0B3E/5CEDF84B)
-    (fp_text reference D1 (at 3.81 -3.556) (layer F.SilkS)
+    (fp_text reference D1 (at 3.81 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value D_Schottky_ALT (at 3.81 2.41) (layer F.Fab)
