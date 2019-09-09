@@ -1520,6 +1520,38 @@ Wire Wire Line
 Connection ~ 4600 6200
 Wire Wire Line
 	4600 6200 4600 6250
+$Comp
+L Amplifier_Operational:LM358 U24
+U 2 1 5D7B00D0
+P 9550 4100
+F 0 "U24" H 9550 4467 50  0000 C CNN
+F 1 "LM358" H 9550 4376 50  0000 C CNN
+F 2 "" H 9550 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 9550 4100 50  0001 C CNN
+	2    9550 4100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9850 4100
+Wire Wire Line
+	9250 4000 9200 4000
+Wire Wire Line
+	9200 4000 9200 4200
+Wire Wire Line
+	9250 4200 9200 4200
+Connection ~ 9200 4200
+Wire Wire Line
+	9200 4200 9200 4300
+$Comp
+L power:GND #PWR087
+U 1 1 5D7D52BD
+P 9200 4300
+F 0 "#PWR087" H 9200 4050 50  0001 C CNN
+F 1 "GND" H 9205 4127 50  0000 C CNN
+F 2 "" H 9200 4300 50  0001 C CNN
+F 3 "" H 9200 4300 50  0001 C CNN
+	1    9200 4300
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	2250 1800 2250 2100
 Wire Bus Line
