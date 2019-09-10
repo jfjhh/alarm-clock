@@ -1611,6 +1611,43 @@ Wire Wire Line
 	2700 900  2750 900 
 Wire Wire Line
 	3150 900  3200 900 
+$Comp
+L power:VCC #PWR088
+U 1 1 5D784885
+P 850 5550
+F 0 "#PWR088" H 850 5400 50  0001 C CNN
+F 1 "VCC" H 867 5723 50  0000 C CNN
+F 2 "" H 850 5550 50  0001 C CNN
+F 3 "" H 850 5550 50  0001 C CNN
+	1    850  5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR089
+U 1 1 5D7851FE
+P 850 5950
+F 0 "#PWR089" H 850 5700 50  0001 C CNN
+F 1 "GND" H 855 5777 50  0000 C CNN
+F 2 "" H 850 5950 50  0001 C CNN
+F 3 "" H 850 5950 50  0001 C CNN
+	1    850  5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5D777D7F
+P 1050 5700
+F 0 "J?" H 1078 5676 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 1078 5585 50  0000 L CNN
+F 2 "" H 1050 5700 50  0001 C CNN
+F 3 "~" H 1050 5700 50  0001 C CNN
+	1    1050 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  5950 850  5800
+Wire Wire Line
+	850  5700 850  5550
 Wire Bus Line
 	8950 4100 8950 5050
 Wire Bus Line
